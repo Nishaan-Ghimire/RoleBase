@@ -1,0 +1,41 @@
+.HomeContainer{
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: ; */
+    background: url('/images/back_remv.png') no-repeat center;
+    /* background-size: contain; */
+    background-size: 1000px 700px;
+    
+    
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /* Additional styling if needed */
+  }
+
+.carouselWrapper{
+    position: absolute;
+    top: 40%;
+    padding: 50px;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Add these styles for the carousel images */
+.carousel-inner img {
+    width: 100%; /* Set images to fill the parent container */
+    height: 50%; /* Maintain aspect ratio */
+    border-radius: 10px; /* Apply curved border */
+  }
+  

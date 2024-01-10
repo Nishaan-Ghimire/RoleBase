@@ -1,0 +1,42 @@
+.DetailPage{
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+border: 2px solid red;
+height: 100vh;
+
+}
+
+.Field{
+font-size: 20px;
+color: black;
+}
+.images{
+display: flex;
+flex-wrap: wrap;
+/* flex-direction: column; */
+gap: 25px;
+}
+
+.title{
+    font-size: 23px;
+    color: black;
+}
+
+/* .Field > span{
+    
+} */
+.FieldImage{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 20px;
+    font-size: 20px;
+}
+
+
+.FieldImage > img{
+    height: 300px;
+}
+
